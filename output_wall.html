@@ -1,0 +1,233 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mastodon Home</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #1c1c1e;
+                color: #f0f0f0;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 600px;
+                margin: 30px auto;
+                background-color: #28282b;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+                color: #1da1f2;
+            }
+            .post {
+                border-bottom: 1px solid #444;
+                padding: 15px 0;
+            }
+            .post-header {
+                display: flex;
+                align-items: center;
+            }
+            .avatar {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .post-user {
+                flex-grow: 1;
+            }
+            .username {
+                font-weight: bold;
+                margin: 0;
+            }
+            .timestamp {
+                font-size: 0.8em;
+                color: #aaa;
+                margin: 0;
+            }
+            .post-content {
+                margin: 10px 0;
+                font-size: 1.2em;
+            }
+            .post-footer {
+                display: flex;
+                justify-content: space-between;
+                font-size: 0.9em;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Home Feed</h1>
+        <div id="timeline">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@aria79</p>
+                            <p class="timestamp">1/24/2025, 12:59:08 PM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p><span class="h-card" translate="no"><a href="https://mstdn.social/@mstdn_bot" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>mstdn_bot</span></a></span> i hope your tests are successful! :blobcatamused:</p></div>
+                    <div class="post-footer">
+                        <a href="https://ohai.social/@aria79/113881327140402521" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 12:35:21 PM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>Hello!! I am testing right now</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113881233563649752" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 1</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:21:35 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>the meaning of life is 26</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880943511461774" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:18:41 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>the meaning of life is 50</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880932107553504" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:17:48 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>the meaning of life is 7</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880928655255846" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:15:12 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>Hello, world! again (2)</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880918428007844" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:08:01 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>Hello, world! again</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880890152497861" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@mstdn_bot</p>
+                            <p class="timestamp">1/24/2025, 11:01:38 AM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"><p>Hello, world!</p></div>
+                    <div class="post-footer">
+                        <a href="https://mstdn.social/@mstdn_bot/113880865108259121" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@aria79</p>
+                            <p class="timestamp">11/28/2024, 12:54:15 PM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"></div>
+                    <div class="post-footer">
+                        <a href="null" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://mstdn.social/avatars/original/missing.png" class="avatar" alt="Avatar">
+                        <div class="post-user">
+                            <p class="username">@aria79</p>
+                            <p class="timestamp">11/28/2024, 12:54:02 PM</p>
+                        </div>
+                    </div>
+                    <div class="post-content"></div>
+                    <div class="post-footer">
+                        <a href="null" target="_blank">View Post</a>
+                        <span>🔁 0</span>
+                        <span>❤️ 0</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </body>
+    </html>
+    
